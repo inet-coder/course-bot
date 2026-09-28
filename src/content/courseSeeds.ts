@@ -95,6 +95,148 @@ const pythonTech: TechSeed = {
 
 export const courseSeeds: CourseSeed[] = [
   {
+    key: 'backend-developer',
+    title: 'Backend Developer',
+    shortTitle: 'BACKEND DEVELOPER KURSI',
+    description:
+      'Backend Developer kursi dasturlashni 0 dan boshlab, backend arxitekturasi, API, ma\'lumotlar bazasi, xavfsizlik va production tayyorgarligacha ketma-ket o\'rgatadi. 7 bosqichli professional kurs bo\'lib, har bir bosqichda konseptual tushunchalar va amaliy loyiha birga ishlanadi.',
+    welcomeItems: [
+      '🐍 Foundation Python',
+      '💛 JavaScript',
+      '🟢 Node.js',
+      '⚙️ Express.js',
+      '🗄 Database',
+      '🛡 Advanced',
+      '🚀 Loyiha',
+    ],
+    aboutBullets: [
+      '✅ Dasturlash fikrlash va Clean Code',
+      '✅ Python va JavaScript asoslari',
+      '✅ Node.js va server arxitekturasi',
+      '✅ Express.js bilan REST API',
+      '✅ PostgreSQL va ma\'lumotlar bazasi',
+      '✅ Authentication, validation va security',
+      '✅ Testing, Docker, CI/CD va deploy',
+      '✅ Real backend loyihasi va portfolio',
+    ],
+    outcomeBullets: [
+      '• Dasturlash va algoritmik fikrlashni rivojlantirish',
+      '• Python va JavaScript bilan backend qilish',
+      '• Node.js va Express.js bilan API yaratish',
+      '• PostgreSQL bilan ma\'lumotlar bazasi dizayni',
+      '• JWT, RBAC va xavfsizlik mexanizmlarini tushunish',
+      '• Test, logging, cache, Docker va deploy jarayonlarini bilish',
+      '• Real backend loyiha yaratish va serverga joylash',
+    ],
+    order: 0,
+    stages: [
+      {
+        title: '01 — FOUNDATION PYTHON',
+        intro:
+          'Maqsad: dasturlash tilini emas, dasturiy fikrlashni o\'rganish. Python bu yerda vosita bo\'lib, ma\'lumotlar tuzilmasi, funksiyalar, OOP va debuggingga asos solinadi.',
+        topics: [
+          'Kompyuter, terminal va ish muhiti',
+          'Dasturlash asoslari',
+          'Takrorlanish va algoritmik fikrlash',
+          'Ma\'lumot tuzilmalari',
+          'Funksiyalar va kodni tashkil etish',
+          'Xatolar va debugging',
+          'Fayllar va formatlar',
+          'OOP',
+          'Sifat va tashqi dunyo',
+          'Git/GitHub asoslari',
+        ],
+      },
+      {
+        title: '02 — JAVASCRIPT',
+        intro:
+          'JavaScriptni Python bilan taqqoslab tez o\'rganish va backend uchun muhim xususiyatlar — closure, asinxronlik va HTTP client bilan ishlash.',
+        topics: [
+          'JS asoslari va Python bilan taqqoslash',
+          'Funksiyalar chuqur',
+          'Object va array',
+          'Class va ES modules',
+          'Asinxron dasturlash',
+          'HTTP client',
+          'Tooling',
+        ],
+      },
+      {
+        title: '03 — NODE.JS',
+        intro:
+          'JavaScriptni serverga olib chiqish, runtime ishlash mexanizmini tushunish va frameworksiz HTTP server yaratish.',
+        topics: [
+          'Runtime',
+          'Core modullar',
+          'Modul tizimi, npm va env',
+          'http moduli bilan server noldan',
+          'Xatolar, logging va graceful shutdown',
+          'Linux/terminal va Git branching',
+        ],
+      },
+      {
+        title: '04 — EXPRESS.JS',
+        intro:
+          'Professional REST API yaratish: routing, validation, middleware, error handling, layered architecture va auth asoslari.',
+        topics: [
+          'Express asoslari',
+          'REST API dizayni',
+          'Middleware',
+          'Validation',
+          'Error handling',
+          'Loyiha strukturasi',
+          'Authentication va Authorization',
+          'API testing va hujjatlash',
+        ],
+      },
+      {
+        title: '05 — DATABASE',
+        intro:
+          'Ma\'lumotni to\'g\'ri modellash, saqlash va tez, xavfsiz o\'qish. Asosiy DB PostgreSQL bo\'lib, tranzaksiyalar, indexlar va SQL mahorati o\'rganiladi.',
+        topics: [
+          'DB nazariyasi',
+          'SQL (CRUD, JOIN, aggregation)',
+          'Schema dizayn',
+          'Index va so\'rov tezligi',
+          'Transaction va ACID',
+          'Node.js + PostgreSQL',
+          'ORM/Query builder va migration',
+          'NoSQL asoslari',
+        ],
+      },
+      {
+        title: '06 — ADVANCED',
+        intro:
+          'Eng og\'ir bosqich bo\'lib, backend tizimning xavfsizligi, testlari, ish faoliyati va production tayyorligi o\'rganiladi.',
+        topics: [
+          'Security chuqur',
+          'Testing strategiyasi',
+          'Arxitektura va SOLID',
+          'Performance',
+          'Real API xususiyatlari',
+          'TypeScript',
+          'Linux va server administratsiyasi',
+          'Docker',
+          'CI/CD',
+        ],
+      },
+      {
+        title: '07 — LOYIHA',
+        intro:
+          'O\'rganilganlarni real ish jarayonida qo\'llash: talab tahlili, dizayn, sprint, review, deploy va portfolio tayyorlash.',
+        topics: [
+          'Talab tahlili va rejalashtirish',
+          'Arxitektura va DB dizayn',
+          'Sprintlarda implementatsiya',
+          'Sifat va security checklist',
+          'Production',
+          'Hujjatlash va taqdimot',
+        ],
+      },
+    ],
+    technologies: [pythonTech, jsTech, nodeTech, expressTech, databaseTech],
+  },
+  {
     key: 'fullstack',
     title: '0 dan Full Stackgacha',
     shortTitle: 'DASTURLASH KURSI — 0 DAN FULL STACKGACHA',
@@ -136,7 +278,7 @@ export const courseSeeds: CourseSeed[] = [
       '• Git/GitHub ishlatish',
       '• Full Stack loyiha yaratish',
     ],
-    order: 0,
+    order: 1,
     stages: [
       {
         title: '01 — DASTURLASHGA KIRISH',
@@ -210,7 +352,7 @@ export const courseSeeds: CourseSeed[] = [
       '• Dasturlash mantig\'ini mustaqil qo\'llash',
       '• Full Stack yo\'nalishiga (yoki tanlagan boshqa yo\'nalishga) tayyorgarlik',
     ],
-    order: 1,
+    order: 2,
     stages: [
       {
         title: '01 — DASTURLASHGA KIRISH',
