@@ -30,8 +30,8 @@ const pythonTech: TechSeed = {
   emoji: '🐍',
   name: 'Python',
   description:
-    'Python zamonaviy backend development uchun eng muhim vosita. Oddiy sintaksisi, kuchli kutubxonalari va keng qo\'llanilishi backend mutaxassislari uchun birinchi tanlov.',
-  usage: ['Backend asoslari', 'API development', 'Ma\'lumot tahlili', 'Avtomatlashtirish', 'Skriptlar'],
+    'Python zamonaviy backend development uchun eng muhim vosita. Oddiy sintaksisi, kuchli kutubxonalari va keng qollanilishi backend mutaxassislari uchun birinchi tanlov.',
+  usage: ['Backend asoslari', 'API development', 'Malumot tahlili', 'Avtomatlashtirish', 'Skriptlar'],
 };
 
 const jsTech: TechSeed = {
@@ -39,7 +39,7 @@ const jsTech: TechSeed = {
   emoji: '💛',
   name: 'JavaScript',
   description:
-    'JavaScript server tomonida ishlatilganda backend developerga ajoyib imkoniyatlar beradi. Asinxron dasturlash, event-driven arxitektura va high-performance server yaratish mumkin bo\'ladi.',
+    'JavaScript server tomonida ishlatilganda backend developerga ajoyib imkoniyatlar beradi. Asinxron dasturlash, event-driven arxitektura va high-performance server yaratish mumkin boladi.',
   usage: ['Server tomonida', 'API development', 'Real-time xizmatlari', 'Microservices', 'CLI toollar'],
 };
 
@@ -48,7 +48,7 @@ const nodeTech: TechSeed = {
   emoji: '🟢',
   name: 'Node.js',
   description:
-    'JavaScript runtime environment bo\'lib, server tomonida JavaScript kodni ishlatish imkonini beradi. Asinxron I/O modeli bilan yuqori performance va masshtablanuvchi backend tizimlarini yasash mumkin.',
+    'JavaScript runtime environment bolip, server tomonida JavaScript kodni ishlatish imkonini beradi. Asinxron I/O modeli bilan yuqori performance va masshtablanuvchi backend tizimlarini yasash mumkin.',
   usage: ['Server framework', 'API server', 'Real-time apps', 'Microservices', 'CLI toollar'],
 };
 
@@ -66,8 +66,8 @@ const databaseTech: TechSeed = {
   emoji: '🗄',
   name: 'PostgreSQL',
   description:
-    'Relational database management system. Ma\'lumotlar integralligi, ACID compliance, advanced query capabilities va scaling imkoniyatlari bilan production sistemalari uchun ideal tanlov.',
-  usage: ['Ma\'lumot saqlash', 'Queries', 'Transactions', 'Indexing', 'Replication'],
+    'Relational database management system. Malumotlar integralligi, ACID compliance, advanced query capabilities va scaling imkoniyatlari bilan production sistemalari uchun ideal tanlov.',
+  usage: ['Malumot saqlash', 'Queries', 'Transactions', 'Indexing', 'Replication'],
 };
 
 export const courseSeeds: CourseSeed[] = [
@@ -76,7 +76,7 @@ export const courseSeeds: CourseSeed[] = [
     title: 'Backend Developer Sertifikatsiyali Dasturlar',
     shortTitle: 'BACKEND DEVELOPER PROFESSIONAL KURSI',
     description:
-      'Professional backend developer bo\'lish uchun zarur bo\'lgan barcha bilim va ko\'nikmalarni o\'z ichiga olgan 18 oylik intensive dastur. 0 dan boshlab, server-side development, API design, database management, security va deployment gacha to\'liq professional yo\'nalishni o\'rganasiz. Real loyihalar va industrial standartilar asosida.",
+      'Professional backend developer bolish uchun zarur bolghan barcha bilim va koniklarimagalarni oz ichiga olghan 18 oylik intensive dastur. 0 dan boshlab, server-side development, API design, database management, security va deployment gacha tolk professional yonalishni organalarsiz. Real loyihalar va industrial standartilar asosida.',
     welcomeItems: [
       'Python fundamental va advanced concepts',
       'JavaScript va asinxron dasturlash',
@@ -87,9 +87,9 @@ export const courseSeeds: CourseSeed[] = [
       'Production deployment va DevOps',
     ],
     aboutBullets: [
-      'Boshlovchi dasturchilar uchun mo\'ljallangan professional dastur',
+      'Boshlovchi dasturchilar uchun moljallangan professional dastur',
       'Real-world production sistemalari asosida tuzilgan curriculum',
-      'Backend development uchun zarur bo\'lgan barcha texnologiyalar',
+      'Backend development uchun zarur bolghan barcha texnologiyalar',
       'Software architecture va system design principles',
       'Enterprise-level security va best practices',
       'Git, CI/CD, Docker va cloud deployment',
@@ -97,7 +97,7 @@ export const courseSeeds: CourseSeed[] = [
       'Junior backend engineer position uchun tayyorgarlik',
     ],
     outcomeBullets: [
-      'Algoritmik va tuzilgan dasturlash ko\'nikmasi',
+      'Algoritmik va tuzilgan dasturlash konikmasi',
       'Python bilan backend services yaratish',
       'JavaScript va asinxron programming model',
       'Node.js runtime va event-driven architecture',
@@ -115,7 +115,7 @@ export const courseSeeds: CourseSeed[] = [
       {
         title: 'Bosqich 1: Python Fundamentals (3 oy)',
         intro:
-          'Backend developmentning temelini tashkil etuvchi programming fundamentals. Algoritmik fikrlash, data structures, OOP va software engineering best practices o\'rganiladi. Python bu bosqichda vosita, maqsad esa coding thinking va professional development mindset shakllantirish.',
+          'Backend developmentning temelini tashkil etuvchi programming fundamentals. Algoritmik fiklash, data structures, OOP va software engineering best practices organalardi. Python bu bosqichda vosita, maqsad esa coding thinking va professional development mindset shakllantirish.',
         topics: [
           'Development environment va version control (Git/GitHub)',
           'Programming fundamentals: variables, data types, operators',
@@ -132,7 +132,7 @@ export const courseSeeds: CourseSeed[] = [
       {
         title: 'Bosqich 2: JavaScript va Asinxron Dasturlash (2 oy)',
         intro:
-          'Backend development uchun JavaScript va asinxron programming model o\'rganiladi. Event loop, callback, Promise va async/await patterns asosida server-side JavaScript development uchun tayyorgarlik. Python bilan solishtirish orqali tez o\'rganish.',
+          'Backend development uchun JavaScript va asinxron programming model organalardi. Event loop, callback, Promise va async/await patterns asosida server-side JavaScript development uchun tayyorgarlik. Python bilan solishtirish orqali tez orgamash.',
         topics: [
           'JavaScript syntax va Python bilan taqqoslash',
           'ES6+ features: arrow functions, destructuring, spread operator',
@@ -239,7 +239,7 @@ export const courseSeeds: CourseSeed[] = [
       {
         title: 'Bosqich 7: Capstone Project va Deployment (2 oy)',
         intro:
-          'Barcha o\'rganilgan bilimlarni comprehensive backend system yaratishda qo\'llanish. Real-world requirements, professional development practices, team collaboration va production deployment.',
+          'Barcha organalgan bilimlarni comprehensive backend system yaratishda qollanish. Real-world requirements, professional development practices, team collaboration va production deployment.',
         topics: [
           'Requirements analysis: feature breakdown, user stories',
           'System architecture: microservices vs monolith, scalability',
