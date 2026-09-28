@@ -117,7 +117,7 @@ export const courseSeeds: CourseSeed[] = [
       '✅ Docker va CI/CD',
       '✅ Real loyihalar va portfolio',
       '✅ Haftasiga 15-20 soat ishlash',
-      '✅ Junior Backend Developer'ga tayyor',
+      '✅ Junior Backend Developer darajasiga tayyor',
     ],
     outcomeBullets: [
       '• Algoritmik fikrlash ko\'nikmasi',
